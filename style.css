@@ -1,0 +1,323 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;   
+}
+.top-1 .contact a{
+    text-decoration: none;
+}
+ .contact a:hover{
+     text-decoration: underline;
+}
+.top-2 a{
+    margin: 0 8px;
+}
+.top-2 a i{
+   
+    color: rgb(214, 209, 209);
+    transition: 0.2s ease-in-out;
+}
+.top-2 a i:hover{
+    color: white;
+}
+.navbar-items  li a{
+    margin:0 13px;
+}
+.ico{
+    color: black;
+}
+/* header */
+.nav-link{
+    position: relative;
+}
+.nav-link{
+    color: rgb(21, 20, 20);
+}
+.nav-link:hover{
+    color: blue;
+}
+.nav-link::after{
+    content:'';
+    transition: 0.2s ease-in-out;
+    opacity: 0;
+    height: 2px ;
+    width: 100%;
+    background-color: blue;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.nav-link:hover::after{
+    opacity: 1;
+}
+/* form section */
+.form-body{
+    height: 110vh;
+    gap: 30px 0;
+    padding: 20px;
+}
+.form-container{
+    border-radius: 20px;
+    width: 350px;
+    padding: 20px 35px;
+    box-shadow: 2px 2px 3px rgb(231, 229, 229);
+}
+.form-container:hover{
+    box-shadow:5px 5px 5px 5px rgb(221, 218, 218);
+    transition: 0.2s ease-in-out;
+}
+.form-inputs{
+    gap: 20px 0;
+}
+.form-inner-sec2{
+    border-radius: 20px;
+    width: 350px;
+    padding: 20px 40px;
+    box-shadow: 2px 3px 4px rgb(231, 229, 229);
+}
+.form-inner-sec2:hover{
+    box-shadow:5px 5px 3px 3px rgb(221, 218, 218);
+    transition: 0.2s ease-in-out;
+}
+.form-inner-sec1{
+    gap: 30px 0;
+}
+.form-facebook{
+    gap: 10px 0;
+}
+.form-facebook:hover{
+    cursor: pointer;
+}
+.form-divider{
+    gap: 0 10px;
+   
+}
+.divider-line{
+    height: 1px;
+    background-color: rgb(138, 133, 133);
+    width: 40%;
+}
+.form-inputs input{
+      background-color: rgb(243, 241, 241);
+}
+/* hero section */
+.hero{
+    height: 80vh;
+    background-image: url(images/hero-2.png) ;
+    background-repeat: no-repeat;
+    background-position:left;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+/* top button */
+.topbar{
+    z-index: 100;
+}
+/* services section */
+.service{
+    min-height: 100vh;
+    height: auto;
+}
+.services-icon{
+    background-color: rgb(205, 243, 248);
+    border-radius: 10px;
+}
+.services-content-container .services-icon{
+    border: 1px solid rgb(255, 255, 255);
+}
+.services-content-container{
+    background-color: rgb(232, 253, 255);
+}
+.services-content-container:hover{
+    transition: 0.2s ease-in-out;
+       cursor: pointer;
+       box-shadow: 3px 5px 3px 4px rgb(217, 237, 240);
+       background-color: white;
+}
+.services-content-container:hover .services-icon{
+           border: 1px solid rgb(41, 41, 247);
+           transition: 0.2s ease-in-out;
+}
+.services-content-container:hover h4{
+     color: blue;
+     transition: 0.2s ease-in-out;
+}
+
+/* progress-bar section */
+
+.bar-content{
+    
+    margin: 20px 0;
+    
+}
+
+/* section 2 */
+
+.sec-2{
+    min-height: 350px;
+    height: auto;
+    background-color: rgb(229, 242, 245);
+}
+.sec-2-container{
+   padding: 40px;
+    gap: 30px 30px;
+   
+}
+.sec-2-box{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0;
+    padding: 10px 20px;
+    box-shadow: 1px 3px 4px rgb(226, 221, 221);
+    border-radius: 20px;
+    transition: 0.2s ease-in-out;
+}
+.sec-2-box i{
+    color: blue;
+}
+.sec-2-box:hover{
+    background-color: blue;
+    cursor: pointer;
+    transform: scale(1.09);
+}
+.sec-2-box:hover h5{
+    color: white;
+}
+.sec-2-box:hover p{
+    color: white;
+}
+.sec-2-box:hover i{
+    color: white;
+}
+/* team section */
+.team{
+    min-height: 60vh;
+    height: auto;
+    background-color: rgb(229, 242, 245);
+
+}
+.team-talks{
+    position: absolute;
+    bottom: 50px;
+    left: 30px;
+    opacity: 0;
+    align-self: center;
+}
+.team-card:hover .team-talks{
+    transition: 0.5s ease-in-out;
+    bottom: 16px;
+    left: 30px;
+    opacity: 10;
+}
+
+/* carousel section */
+.carousel-sec{
+   height: 70vh;
+   background-color: black;
+   background-image: url(banner5\,.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.carousel-content{
+    margin:0 30px;
+    gap: 10px 0;
+}
+.carousel-content p{
+    margin-bottom: 10px;
+    text-align: center;
+    font-style: italic;
+}
+.carousel-img{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border:5px solid rgb(177, 175, 175) ;
+    background-image: url(images/hero-2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.carousel-container{
+    height: auto;
+}
+/* card section */
+.cards{
+    min-height: 800px;
+    height: auto;
+    background-color: rgb(229, 242, 245);
+
+}
+.cards-content{
+    gap:30px;
+}
+.cards-top-pill p{
+    background-color: rgb(181, 233, 247);
+}
+.cards-1 .ptag{
+    padding: 0 100px;
+}
+.card{
+    overflow: hidden;
+}
+.advanced{
+    width: 200px;
+    position: absolute;
+    top: 18px;
+    right: -68px;
+    transform: rotate(45deg);
+    z-index: 1;
+    font-size: 14px;
+    padding: 1px 0 3px 0;
+    background: #106eea;
+    color: #fff;
+}
+/* contact section */
+.contact-icon{
+    border-radius: 50%;
+    border: 2px dotted rgb(138, 198, 247);
+}
+/* last sec */
+.last-sec{
+    background-color: rgb(229, 242, 245);
+
+}
+/* footer section */
+.footer-1{
+    min-height: 400px;
+    height: auto;
+}
+.footer-col ul li a{
+    text-decoration: none;
+    color: rgb(107, 105, 105);
+    transition: 0.2s ease-in-out;
+}
+.footer-col ul li a:hover{
+    color: blue;
+}
+.footer-col ul li i{
+ 
+    color: blue;
+}
+.footer-row{
+    gap: 30px 0;
+}
+.footer-col ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 15px 0;
+}
+.footer-col ul li i{
+    margin: 0 10px 0 0 ;
+}
+.button-group {
+    gap: 0 10px;
+}
+.footer-2{
+    background-color: rgb(219, 241, 245);
+}
+
